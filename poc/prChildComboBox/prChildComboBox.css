@@ -1,0 +1,233 @@
+.container {
+    position: relative;
+    /* height: 500px; */
+    border-radius: 0.25rem;
+    box-shadow: 0px 0px 2px 2px #e0e0df;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.email-heading{
+    background: rgb(254 147 57);
+    background: -moz-linear-gradient(90.12deg, #F9BC4B 1.8%, #E86836 46.79%, #E34E76 89.77%);
+    background: -webkit-linear-gradient(90.12deg, #F9BC4B 1.8%, #E86836 46.79%, #E34E76 89.77%);
+    background: linear-gradient(90.12deg, #F9BC4B 1.8%, #E86836 46.79%, #E34E76 89.77%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#567583",endColorstr="#0f2027",GradientType=1);
+    color: white;
+    /* width: 800px;
+    font-size: x-large;
+    text-align: center; */
+}
+
+/**********************************************************************
+* SKY NEUTRAL BUTTON
+**********************************************************************/
+.sky-neutral-button, .sky-neutral-button:visited, .sky-neutral-button:link, .sky-neutral-button:focus {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 47px;
+    background-clip: border-box;
+    border: 1px solid #BEB9B4;
+    border-radius: .25rem;
+    line-height: 1.875rem;
+    text-decoration: none;
+    -webkit-appearance: none;
+    white-space: normal;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    transition: border .15s linear;
+    background-color: #0070d2;
+    border-color: #0070d2;
+    color: #ffffff;
+    cursor: pointer;
+    outline: 0;
+    box-shadow: none;
+}
+
+.sky-neutral-button:hover {
+    text-decoration: none;
+    outline: 0;
+    background-color: #005fb2;
+    border-color: #005fb2;
+    color: #ffffff;
+}
+
+.sky-neutral-button:active {
+    text-decoration: none;
+    outline: 0;
+    background-color: #00559e;
+    border-color: #00559e;
+    color: #ffffff;
+}
+
+.sky-neutral-button:disabled {
+    cursor: default;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-color: #BEB9B4;
+    color: #BEB9B4;
+}
+
+a{
+    text-decoration: none;
+}
+
+/***********************************************************************
+ * UTILITIES
+ **********************************************************************/
+ .text-size-xxs {
+    font-size: .5rem;
+}
+
+.text-size-xs {
+    font-size: .75rem;
+}
+
+.text-size-sm {
+    font-size: .875rem;
+}
+
+.text-size-base {
+    font-size: 1rem;
+}
+
+.text-size-lg {
+    font-size: 1.125rem;
+}
+
+.text-size-xl {
+    font-size: 1.25rem;
+}
+
+.text-size-2xl {
+    font-size: 1.5rem;
+}
+
+.text-size-3xl {
+    font-size: 1.875rem;
+}
+
+.text-size-4xl {
+    font-size: 2.25rem;
+}
+
+.text-size-5xl {
+    font-size: 3rem;
+}
+
+.text-size-6xl {
+    font-size: 4rem;
+}
+
+.text-weight-hairline {
+    font-weight: 100;
+}
+
+.text-weight-thin {
+    font-weight: 200;
+}
+
+.text-weight-light {
+    font-weight: 300;
+}
+
+.text-weight-normal {
+    font-weight: 400;
+}
+
+.text-weight-medium {
+    font-weight: 500;
+}
+
+.text-weight-semibold {
+    font-weight: 600;
+}
+
+.text-weight-bold {
+    font-weight: 700;
+}
+
+.text-weight-extrabold {
+    font-weight: 800;
+}
+
+.text-weight-black {
+    font-weight: 900;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.text-blue {
+    color: #0070d2;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-grey {
+    color: #afafaf;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-decoration {
+    text-decoration: underline;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.display-none {
+    display: none;
+}
+
+/* AOFF - 1081  - START */
+.helptext-icon {
+    position: absolute;
+    margin-top: -7px;
+    white-space: pre-line;
+}
+
+.footer-button {
+    width: 95%;
+}
+
+.send-order-link-button {
+    background-color: #37AAE2;
+}
+
+.send-order-link-button:hover {
+    background-color: #21A0DF;
+}
+
+.send-order-link-button:active {
+    background-color: #21A0DF;
+}
+
+.email-confirmation-div {
+    width: auto;
+}
+
+.email-status-class {
+    font-size: large;
+}
+/* AOFF - 1081  - END */

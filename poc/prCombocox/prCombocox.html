@@ -1,0 +1,10 @@
+<template>
+    <div class="slds-grid slds-wrap slds-m-left_medium slds-m-bottom_small promoSelect">
+        <div
+            class="slds-col slds-m-around_x-small slds-size_9-of-12 slds-small-size_9-of-12 slds-medium-size_7-of-12 slds-large-size_4-of-12">
+            <c-pr-child-combo-box options={options} selected-value={selectedPromotion} minchar={minchar} isinitialised={isinitialised}           
+                place-holder="Angebot Auswählen" onselect={handleSelectPromotion}> 
+            </c-pr-child-combo-box>
+        </div>
+    </div>
+</template>
