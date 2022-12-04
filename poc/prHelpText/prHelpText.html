@@ -1,0 +1,25 @@
+<template>
+    <span style="position:relative">
+        <span class="slds-form-element">
+            <label class="slds-form-element__label" for="text-input-id-1">{labelValue}</label>
+         <div class="slds-form-element__icon">
+             <button class="slds-button slds-button_icon" onmouseover={togglePasswordHint}
+                 onmouseout={togglePasswordHint}>
+                 <lightning-icon icon-name={iconName} alternative-text="Info" size="xx-small"
+                     title="">
+                 </lightning-icon>
+             </button>
+             <div class={passwordHintClass} role="tooltip" id="help"
+                 style="position:absolute;top:-100px;left:-15px;width:200px">
+                 <div class="slds-popover__body">
+                    <template if:true={textMessage1}>{textMessage1} <br></template>
+                    <template if:true={textMessage2}>{textMessage2} <br></template>
+                    <template if:true={textMessage3}>{textMessage3} <br></template>
+                    <template if:true={textMessage4}>{textMessage4} <br></template>
+                    <template if:true={textMessage5}>{textMessage5} <br></template>
+                 </div>
+             </div>
+         </div>
+        </span>
+    </span> 
+</template>
